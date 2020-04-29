@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <body background="">
+  <title>home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  </style>
+  <style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-right: : 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+</style>
+</head>
+<body background="">
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="maamam.html">Home</a>
+  <a href="covid.html">Covid-19</a>
+  <a href="Bird.html">Bird Flu</a>
+  <a href="Sars.html">Sars</a>
+  <a href="Zika.html">Zika</a>
+</div>
+
+<img src="http://www.incognitothemes.com/infectious/assets/images/logo-black.png" width="200" height="50" align="right">
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>  
+  
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div.example {
+  padding: 20px;
+}
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<div >
+  <img src="https://mesamalaria.org/sites/default/files/styles/large/public/Ecology%20and%20Evolution%20of%20infectious%20diseases.jpg?itok=6OJsSy1e" alt="Snow" style="width:100%;">
+
+  <div class="centered"><div class="example" align="Center"><font color="white"><strong>Infectious Diseases<strong></font>
+
+  </font>
+</div></div>
+</div>
+
+
+
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+<marquee>
+   <img src="https://www.nic.in/wp-content/uploads/2020/03/Corna_Virus.jpg" height="400" width="600" >
+   <img src="https://pbs.twimg.com/media/ETcFZRwUYAAoQjp.jpg" height="400" width="600">
+ </marquee>
+  </div>
+  <style>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="https://www.cdc.gov/breastfeeding/images/maternal-nutrition/covid-19-badge.png" alt="Mountains" style="width:100%">
+      <h3>covid 19 full form</h3>
+
+    </div>
+  </div>
+  <div class="row">
+  <div class="column">
+    <div class="content">
+    <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202003/bird-flu-story_0.jpeg?1P5oID69l9ImESzfHbKt3Vj0AGckHD3P" alt="Lights" style="width:100%">
+      <h3>Outbreak of bird flu</h3>
+      
+    </div>
+    <br>
+  </div>
+  <div class="row">
+  <div class="column">
+    <div class="content">
+    <img src="https://www.mdpi.com/vaccines/vaccines-08-00153/article_deploy/html/images/vaccines-08-00153-g001.png" alt="Nature" style="width:100%">
+      <h3>Parts of sars virus</h3>
+    </div>
+  </div>
+  <div class="row">
+  <div class="column">
+    <div class="content">
+    <img src="https://www.researchgate.net/publication/315980699/figure/fig1/AS:482046150746116@1491940166498/Common-noticed-symptoms-of-Zika-virus-ZIKV-infection.png" alt="Mountains" style="width:100%">
+      <h3>Symptoms of Zika</h3>
+    </div>
+ 
+<!-- END GRID -->
+
+
+</body>
+</html>
